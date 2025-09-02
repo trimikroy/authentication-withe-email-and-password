@@ -8,6 +8,7 @@ import Navbar from './components/Navbar/Navbar.jsx'
 import About from './components/About/About.jsx'
 import SignIn from './components/SignIn/SignIn.jsx'
 import SignUp from './components/SignUp/SignUp.jsx'
+import Register from './components/Register/Register.jsx'
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path:'signUp',
         element:<SignUp></SignUp>
+      },
+      {
+        path: 'register',
+        element:<Register></Register>
       }
       
     ]

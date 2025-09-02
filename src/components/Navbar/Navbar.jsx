@@ -16,6 +16,7 @@ const Navbar = () => {
             <div className="flex gap-4">
                 <NavLink to='/signIn' ><button className="btn btn-ghost bg-green-600 text-white">SignIn</button></NavLink>
                 <NavLink to='/signUp' ><button className="btn  btn-ghost bg-indigo-400 text-white">SignUp</button></NavLink>
+                <NavLink to='/register' ><button className="btn  btn-ghost bg-violet-600 text-white">Register</button></NavLink>
             </div>
         </div>
     );
